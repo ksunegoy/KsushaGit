@@ -172,7 +172,7 @@ public class Complex {
       // Setup and print two complex numbers .....
 
       Complex cA = new Complex( -1.0, -2.0 );
-      Complex cB = new Complex( 3.0, 4.0 );
+      Complex cB = new Complex( 3.0, 5.0 );
   
       
 
