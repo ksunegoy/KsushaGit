@@ -28,14 +28,6 @@ public class Complex {
 
    // Complex negative of complex number ...
 
-   public Complex Negate() {
-   Complex negate = new Complex();
-
-       negate.dReal      = - dReal;
-       negate.dImaginary = - dImaginary;
-
-       return (negate);
-   }
 
    // Compute sum of two complex numbers cA + cB.....
 
@@ -191,8 +183,7 @@ public class Complex {
 
       Complex cC = cA.Add( cB );
       System.out.println("Complex   cA + cB = " + cC.toString() );
-      Complex cD = cA.Sub( cB );
-      System.out.println("Complex   cA - cB = " + cD.toString() );
+     
 
       // Test complex multiplication and division .....
 
